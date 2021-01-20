@@ -1,0 +1,60 @@
+{
+  "name": "wcw-wondercv-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "blake3": "^2.1.4",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "co-redis": "^2.1.1",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "ioredis": "^4.19.4",
+    "jsonwebtoken": "^8.5.1",
+    "jspdf": "^2.2.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-conditional-get": "^3.0.0",
+    "koa-etag": "^4.0.0",
+    "koa-helmet": "^6.0.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^4.0.0",
+    "koa-pino-logger": "^3.0.0",
+    "koa-qs": "^3.0.0",
+    "koa-redis": "^4.0.1",
+    "koa-router": "^10.0.0",
+    "koa-session": "^6.1.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.9",
+    "mongoose-id": "^0.1.3",
+    "mongoose-paginate-v2": "^1.3.12",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^5.0.0",
+    "node-sass-middleware": "^0.11.0",
+    "nodemailer": "^6.4.17",
+    "pino": "^6.10.0",
+    "pino-pretty": "^4.3.0",
+    "querystring": "^0.2.0",
+    "redis": "^3.0.2",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "wcw",
+  "license": "MIT"
+}
